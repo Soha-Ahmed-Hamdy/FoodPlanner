@@ -6,19 +6,20 @@
     android:padding="10dp"
     android:id="@+id/all_category_view"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <TextView
+        android:id="@+id/category_meal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My Favourite Meal"
         android:layout_marginTop="24dp"
-        android:id="@+id/category_meal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/playball"
+        android:text="My Favourite Meal"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
@@ -39,8 +40,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="restore"
+        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@id/category_meal"
+        app:layout_constraintBottom_toBottomOf="@id/category_meal"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

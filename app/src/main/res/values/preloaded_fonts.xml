@@ -4,8 +4,10 @@
         <item>@font/</item>
         <item>@font/amita</item>
         <item>@font/belgrano</item>
+        <item>@font/galada</item>
         <item>@font/inter</item>
         <item>@font/inter_bold</item>
         <item>@font/lemon</item>
+        <item>@font/playball</item>
     </array>
 </resources>

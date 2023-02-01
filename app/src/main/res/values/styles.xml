@@ -52,8 +52,8 @@
         <item name="android:layout_width">55dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:adjustViewBounds">true</item>
-        <item name="android:backgroundTint">@color/white_35</item>
-        <item name="android:background">@drawable/shape_rounded_corners</item>
+        <item name="android:backgroundTint">@color/green</item>
+        <item name="android:background">@drawable/add_chart_button</item>
         <item name="android:padding">8dp</item>
         <item name="tint">?android:textColorHint</item>
     </style>

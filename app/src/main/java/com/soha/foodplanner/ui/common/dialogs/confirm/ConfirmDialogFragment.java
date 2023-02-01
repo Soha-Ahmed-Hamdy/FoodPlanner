@@ -38,6 +38,7 @@ public class ConfirmDialogFragment extends BaseDialogFragmentWithArgs<ConfirmDia
         return ConfirmDialogFragmentArgs.fromBundle(requireArguments());
     }
 
+
     @Override
     public void updateUiFromSafeArgs(ConfirmDialogFragmentArgs args) {
         textViewMessage.setText(args.getMessage());
